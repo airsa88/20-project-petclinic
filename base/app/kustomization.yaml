@@ -1,7 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- 01-serviceaccount.yaml
-- 02-deploymentconfig.yaml
-- 03-service.yaml
-- 04-route.yaml
+  - 01-serviceaccount.yaml
+  - 02-deploymentconfig.yaml
+  - 03-service.yaml
+  - 04-route.yaml
+  - mysql-deploymentconfig.yaml
+  - mysql-secret.yaml
+  - mysql-svc.yaml
+  - petclinic-mysql-cm.yaml
+  - petclinic-mysql-secret.yaml

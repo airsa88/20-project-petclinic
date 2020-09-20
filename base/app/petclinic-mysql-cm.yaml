@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    app: petclinic
+  name: petclinic-mysql
+data:
+  database: mysql
+  spring_datasource_initialization-mode: always
+  spring_datasource_url: jdbc:mysql://mysql/petclinic
