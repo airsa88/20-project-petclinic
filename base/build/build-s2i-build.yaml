@@ -9,11 +9,9 @@ spec:
   failedBuildsHistoryLimit: 5
   nodeSelector: {}
   output:
-    pushSecret:
-      name: quay-cicd-secret
     to:
-      kind: DockerImage
-      name: quay.io/pittar/petclinic:latest
+      kind: ImageStreamTag
+      name: 'petclinic:latest'
   postCommit: {}
   resources: {}
   runPolicy: Serial
