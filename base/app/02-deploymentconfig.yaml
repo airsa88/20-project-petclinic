@@ -9,6 +9,8 @@ metadata:
     app.kubernetes.io/part-of: petclinic
     app.openshift.io/runtime: java
     app.openshift.io/runtime-version: "8"
+  annotations:
+    app.openshift.io/connects-to: database
   name: petclinic
 spec:
   replicas: 1

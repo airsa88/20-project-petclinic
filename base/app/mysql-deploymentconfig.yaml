@@ -4,7 +4,7 @@ metadata:
   labels:
     app: petclinic
     app.kubernetes.io/component: database
-    app.kubernetes.io/instance: petclinic
+    app.kubernetes.io/instance: database
     app.kubernetes.io/name: petclinic
     app.kubernetes.io/part-of: petclinic
     app.openshift.io/runtime: mysql
