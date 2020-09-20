@@ -94,6 +94,7 @@ spec:
   test: false
   triggers:
   - imageChangeParams:
+      automatic: true
       containerNames:
       - mysql
       from:
