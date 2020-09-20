@@ -14,7 +14,7 @@ spec:
   runPolicy: Serial
   source:
     git:
-      ref: sonarqube
+      ref: master
       uri: https://github.com/pittar/spring-petclinic.git
     type: Git
   strategy:
@@ -25,7 +25,7 @@ spec:
       - name: GIT_SOURCE_URL
         value: https://github.com/pittar/spring-petclinic.git
       - name: GIT_SOURCE_REF
-        value: sonarqube
+        value: master
       jenkinsfilePath: Jenkinsfile
     type: JenkinsPipeline
   successfulBuildsHistoryLimit: 5
