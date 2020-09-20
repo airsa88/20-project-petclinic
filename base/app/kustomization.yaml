@@ -5,6 +5,7 @@ resources:
   - 02-deploymentconfig.yaml
   - 03-service.yaml
   - 04-route.yaml
+  - mysql-pvc.yaml
   - mysql-deploymentconfig.yaml
   - mysql-secret.yaml
   - mysql-svc.yaml
