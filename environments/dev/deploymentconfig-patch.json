@@ -1,3 +1,0 @@
-[
-    {"op": "replace", "path": "/spec/template/triggers/0/imageChangeParams/from/name", "value": "petclinic:dev"}
-]
